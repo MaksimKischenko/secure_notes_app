@@ -1,0 +1,59 @@
+{
+  "screens": {
+    "auth": {
+      "loginField": {
+        "title": "Login"
+      },
+      "passwordField": {
+        "title": "Password"
+      },
+      "authButton": "Login",
+      "validation": {
+        "message": "Required field"
+      }
+    }, 
+    "catalog": {
+      "header": {
+        "title": "Catalog"
+      },
+      "catalogAction": {
+        "action": "Share",
+        "delete": "Delete"
+      },
+      "settingsModalBottom": {
+        "language": "Language",
+        "logOut": "Log out"
+      },
+      "addCatalogModalBottom": {
+        "title": "Add element",
+        "create": "Create",
+        "secretKey": "Enter secret key",
+        "cansel": "Cansel"
+      },
+      "createCatalogModalBottom": {
+        "name": "Enter name",
+        "add": "Add"
+      },
+      "enterKeyModalBottom": {
+        "name": "Enter secret key",
+        "add": "Enter"
+      }             
+    },
+    "multiplatform": {
+      "exitMenu": {
+        "dialogTitle": "Are you sure you want to leave?",
+        "dialogDescriptionTitle": "Your authorized data will be deleted from the device",
+        "buttonTitle": "Exit",
+        "cancelButtonTitle": "Stay"
+      },
+      "erorMenu": {
+        "dialogTitle": "Error",
+        "dialogDescriptionTitle": {
+          "edit": "You do not have permission to edit this directory",
+          "delete": "You do not have permission to delete this directory",
+          "generateKey" : "You do not have permission to generate a key for this directory"
+        }
+      }   
+    }   
+  }
+}

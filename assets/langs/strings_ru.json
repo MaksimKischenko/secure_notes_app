@@ -1,0 +1,60 @@
+{
+  "screens": {
+    "auth": {
+      "loginField": {
+        "title": "Логин"
+      },
+      "passwordField": {
+        "title": "Пароль"
+      },
+      "authButton": "Войти",
+      "validation": {
+        "message": "Поле обязательное для заполнения"
+      }      
+    }, 
+    "catalog": {
+      "header": {
+        "title": "Каталог"
+      },
+      "catalogAction": {
+        "action": "Поделиться",
+        "delete": "Удалить"
+      },
+      "settingsModalBottom": {
+        "language": "Язык",
+        "logOut": "Выйти"
+      },
+      "addCatalogModalBottom": {
+        "title": "Добавить элемент",
+        "create": "Создать",
+        "secretKey": "Ввести секретный ключ",
+        "cansel": "Отмена"
+      },
+      "createCatalogModalBottom": {
+        "name": "Введите название",
+        "add": "Добавить"
+      },
+      "enterKeyModalBottom": {
+        "name": "Введите секретный ключ",
+        "add": "Ввод"
+      }         
+    },
+    "multiplatform": {
+      "exitMenu": {
+        "dialogTitle": "Уверены, что хотите выйти?",
+        "dialogDescriptionTitle": "Ваши авторизованные данные будут удалены с устройства",
+        "buttonTitle": "Выйти",
+        "cancelButtonTitle": "Остаться"
+      },
+      "erorMenu": {
+        "dialogTitle": "Ошибка",
+        "dialogDescriptionTitle": {
+          "edit": "У вас нет прав для редактирования данного каталога",
+          "delete": "У вас нет прав для удаления данного каталога",
+          "generateKey" : "У вас нет прав для генерации ключа у данного каталога"
+        }
+      }    
+    }  
+  }
+}
+
